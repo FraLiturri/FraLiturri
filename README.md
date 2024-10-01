@@ -1,7 +1,7 @@
 ### Hi, I'm Francesco!
 
 - 🧑‍🔬 Theoretical Physicist keen on Coding and Computer Science
-- 👨‍🎓 Studied at University of Pisa, Italy
+- 👨‍🎓 Studying at University of Pisa, Italy
 - 📚 Learning more about Flutter and Databases
 - 🏗️ Developing Android/iOS app
   
