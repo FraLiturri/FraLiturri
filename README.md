@@ -11,7 +11,12 @@
 ![](https://github-readme-stats.vercel.app/api?username=FraLiturri&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=FraLiturri&theme=dark&hide_border=false)<br/>
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+
 ---
+
 [![](https://visitcount.itsvg.in/api?id=FraLiturri&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
+
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
