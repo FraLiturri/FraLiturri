@@ -11,7 +11,7 @@
 ![](https://github-readme-stats.vercel.app/api?username=FraLiturri&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=FraLiturri&theme=dark&hide_border=false)<br/>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&layout=compact)
 
 ---
 
