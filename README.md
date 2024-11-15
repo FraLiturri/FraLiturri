@@ -10,7 +10,7 @@
 # 📊 GitHub Stats:
 ![FraLiturri's GitHub stats](https://github-readme-stats.vercel.app/api?username=FraLiturri&show_icons=true&theme=dracula)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&)
 
 ---
 
