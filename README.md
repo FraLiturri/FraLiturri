@@ -12,10 +12,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&theme=algolia&layout=compact)
 
----
-
-[![](https://visitcount.itsvg.in/api?id=FraLiturri&label=Profile%20Views&color=1&icon=5&pretty=true)](https://visitcount.itsvg.in)
-
-
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
