@@ -1,5 +1,5 @@
 # 💫 About Me:
-<br>🧑‍🔬 Theoretical Physicist keen on Coding and Computer Science<br>
+🧑‍🔬 Theoretical Physicist keen on Coding and Computer Science<br>
 👨‍🎓 Studying at the University of Pisa, Italy<br>
 📚 Working on Normalizing Flows for Lattice Gauge Theories<br>
 📖 Project Euler enjoyer 
