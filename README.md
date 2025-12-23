@@ -11,7 +11,11 @@
 # 📊 GitHub Stats:
 <!-- ![](https://github-readme-stats.vercel.app/api?username=FraLiturri&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/> -->
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=donut&langs_count=8)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=donut&langs_count=8">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&theme=default&hide_border=false&include_all_commits=true&count_private=false&layout=donut&langs_count=8">
+  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FraLiturri&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=donut&langs_count=8">
+</picture>
 ---
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
