@@ -1,4 +1,4 @@
-💫 About Me:
+#💫 About Me:
 🧑‍🔬 Theoretical Physicist keen on Coding and Computer Science<br>
 👨‍🎓 Studying at the University of Pisa, Italy<br>
 📚 Working on Normalizing Flows for Lattice Gauge Theories<br>
