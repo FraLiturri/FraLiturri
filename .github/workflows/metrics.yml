@@ -20,4 +20,7 @@ jobs:
           plugin_languages_limit: 8 # Numero massimo di linguaggi da mostrare
           base: header, community, repositories, metadata
           config_timezone: Europe/Rome
+          # Grafico isometrico dei contributi (3D)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year # Mostra gli ultimi 6 mesi
           filename: github-metrics.svg # Nome del file salvato nel repo
