@@ -199,6 +199,7 @@
                                 HTML
                             </div>
                             <small>
+                                <div>5.49 MB</div>
                                 <div>65.07%</div>
                             </small>
                         </div>
@@ -210,6 +211,7 @@
                                 JavaScript
                             </div>
                             <small>
+                                <div>1.06 MB</div>
                                 <div>12.51%</div>
                             </small>
                         </div>
@@ -221,6 +223,7 @@
                                 Liquid
                             </div>
                             <small>
+                                <div>148 kB</div>
                                 <div>1.76%</div>
                             </small>
                         </div>
@@ -232,6 +235,7 @@
                                 C++
                             </div>
                             <small>
+                                <div>79.6 kB</div>
                                 <div>0.94%</div>
                             </small>
                         </div>
@@ -245,6 +249,7 @@
                                 SCSS
                             </div>
                             <small>
+                                <div>1.35 MB</div>
                                 <div>16%</div>
                             </small>
                         </div>
@@ -256,6 +261,7 @@
                                 CSS
                             </div>
                             <small>
+                                <div>178 kB</div>
                                 <div>2.12%</div>
                             </small>
                         </div>
@@ -267,6 +273,7 @@
                                 Python
                             </div>
                             <small>
+                                <div>111 kB</div>
                                 <div>1.32%</div>
                             </small>
                         </div>
@@ -278,6 +285,7 @@
                                 Ruby
                             </div>
                             <small>
+                                <div>23.4 kB</div>
                                 <div>0.28%</div>
                             </small>
                         </div>
@@ -1300,7 +1308,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 2 Jan 2026, 12:35:54 (timezone Europe/Rome) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 2 Jan 2026, 12:53:54 (timezone Europe/Rome) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
