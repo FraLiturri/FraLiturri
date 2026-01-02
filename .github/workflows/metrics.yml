@@ -1,26 +1,45 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 * * * *"}] # Si aggiorna ogni ora
-  workflow_dispatch: # Ti permette di avviarlo manualmente per testare
+  # Pianificazione: ogni ora
+  schedule: [{cron: "0 * * * *"}]
+  # Permette l'avvio manuale dalla scheda Actions
+  workflow_dispatch:
+  # Avvio automatico quando modifichi il file
   push: {branches: ["master", "main"]}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Personal Metrics
+        uses: lowlighter/metrics@latest
         with:
+          # Il token salvato nei Secrets del repository
           token: ${{ secrets.METRICS_TOKEN }}
-          user: FraLiturri # <--- CAMBIA CON IL TUO USERNAME
+          
+          # Configurazione Utente
+          user: FraLiturri
           template: classic
-          plugin_languages: yes
-          plugin_languages_ignored: html, css # Escludi linguaggi meno rilevanti
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8 # Numero massimo di linguaggi da mostrare
           base: header, community, repositories, metadata
           config_timezone: Europe/Rome
-          # Grafico isometrico dei contributi (3D)
+          
+          # Output: salvataggio file locale nel repository
+          filename: github-metrics.svg
+
+          # PLUGIN: GRAFICO ISOMETRICO (3D)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year # Mostra gli ultimi 6 mesi
-          filename: github-metrics.svg # Nome del file salvato nel repo
+          plugin_isocalendar_duration: half-year
+
+          # PLUGIN: LINGUAGGI
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          # ESCLUSIONE REPO: inserisci qui i nomi separati da virgola
+          plugin_languages_skipped: francescoliturrri
+          plugin_languages_limit: 8
+          
+          # OPZIONI AGGIUNTIVE
+          config_padding: 0, 5%
+          plugin_languages_threshold: 0% # Mostra anche linguaggi con bassa %
