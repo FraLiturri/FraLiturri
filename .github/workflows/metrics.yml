@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Pianificazione: ogni ora
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   # Permette l'avvio manuale dalla scheda Actions
   workflow_dispatch:
   # Avvio automatico quando modifichi il file
