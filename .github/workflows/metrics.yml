@@ -35,7 +35,7 @@ jobs:
           # PLUGIN: LINGUAGGI
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_details: percentage
+          plugin_languages_details: bytes-size, percentage
           # ESCLUSIONE REPO: inserisci qui i nomi separati da virgola
           plugin_languages_skipped: francescoliturrri
           plugin_languages_limit: 8
