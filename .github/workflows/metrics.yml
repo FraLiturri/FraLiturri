@@ -43,4 +43,4 @@ jobs:
           
           # OPZIONI AGGIUNTIVE
           config_padding: 0, 5%
-          plugin_languages_threshold: 0% # Mostra anche linguaggi con bassa %
+          plugin_languages_threshold: 0% # Mostra anche linguaggi con bassa %, 
