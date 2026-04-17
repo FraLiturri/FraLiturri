@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  # Pianificazione: ogni ora
+  # Pianificazione: ogni notte a mezzanotte
   schedule: [{cron: "0 0 * * *"}]
   # Permette l'avvio manuale dalla scheda Actions
   workflow_dispatch:
@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      packages: write
     steps:
       - name: Personal Metrics
         uses: lowlighter/metrics@latest
@@ -37,10 +36,9 @@ jobs:
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
-          # ESCLUSIONE REPO: inserisci qui i nomi separati da virgola
           plugin_languages_skipped: francescoliturrri
           plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
           
           # OPZIONI AGGIUNTIVE
           config_padding: 0, 5%
-          plugin_languages_threshold: 0% # Mostra anche linguaggi con bassa %, 
